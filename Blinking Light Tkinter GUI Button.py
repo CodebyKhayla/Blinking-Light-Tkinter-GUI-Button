@@ -45,6 +45,7 @@ def button_released(event):
     return button_on
     blinking()
 
+#Tkinter
 root = tk.Tk()
 root.geometry('400x400')
 btn = ttk.Button(root, text='Light')
